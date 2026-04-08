@@ -1,0 +1,2205 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.20.0221.0754                               -->
+<workbook original-version='18.1' source-build='2019.4.4 (20194.20.0221.0754)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='cleand_stress_level_study' inline='true' name='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleand_stress_level_study' name='textscan.1c40yy90205kpk11u6k5i1cz7fof'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/hp/Desktop/stress level/cleand_stress_level_study.csv' dataRefreshTime='' directory='C:/Users/hp/Desktop/stress level' filename='C:/Users/hp/AppData/Local/Temp/TableauTemp/05epf5t01mm64v1aagely137k3vy/cleand_stress_level_study.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1c40yy90205kpk11u6k5i1cz7fof' name='cleand_stress_level_study.csv' table='[cleand_stress_level_study#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:N141:no:A1:N141:1' header='yes' locale='en_US' separator=','>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='Your Academic Stage' ordinal='1' />
+            <column datatype='integer' name='Peer pressure' ordinal='2' />
+            <column datatype='integer' name='Academic pressure from your home' ordinal='3' />
+            <column datatype='string' name='What coping strategy you use as a student?' ordinal='4' />
+            <column datatype='string' name='Do you have any bad habits like smoking, drinking on a daily basis?' ordinal='5' />
+            <column datatype='integer' name='What would you rate the academic  competition in your student life' ordinal='6' />
+            <column datatype='integer' name='Rate your academic stress index' ordinal='7' />
+            <column datatype='integer' name='Stress Index' ordinal='8' />
+            <column datatype='integer' name='Academic pressure' ordinal='9' />
+            <column datatype='integer' name='Study Environment_Peaceful' ordinal='10' />
+            <column datatype='integer' name='Study Environment_disrupted' ordinal='11' />
+            <column datatype='string' name='Study Environment' ordinal='12' />
+            <column datatype='integer' name='Rate your academic stress index  1' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Your Academic Stage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Your Academic Stage]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Your Academic Stage</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Peer pressure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Peer pressure]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Peer pressure</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Academic pressure from your home</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Academic pressure from your home]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Academic pressure from your home</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What coping strategy you use as a student?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[What coping strategy you use as a student?]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>What coping strategy you use as a student?</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do you have any bad habits like smoking, drinking on a daily basis?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Do you have any bad habits like smoking, drinking on a daily basis?]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Do you have any bad habits like smoking, drinking on a daily basis?</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What would you rate the academic  competition in your student life</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[What would you rate the academic  competition in your student life]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>What would you rate the academic  competition in your student life</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rate your academic stress index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rate your academic stress index]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Rate your academic stress index</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stress Index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stress Index]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Stress Index</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Academic pressure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Academic pressure]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Academic pressure</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Study Environment_Peaceful</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Study Environment_Peaceful]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Study Environment_Peaceful</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Study Environment_disrupted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Study Environment_disrupted]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Study Environment_disrupted</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Study Environment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Study Environment]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Study Environment</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rate your academic stress index  1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rate your academic stress index  1]</local-name>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias>Rate your academic stress index  1</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cleand_stress_level_study.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N141:no:A1:N141:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1391</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='study enviroment compined' datatype='integer' name='[Calculation_74027976218693632]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IFNULL([Study Environment_Peaceful],[Study Environment_disrupted])' />
+      </column>
+      <column caption='Calculation1' datatype='real' name='[Calculation_74027976242458627]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF [Study Environment] = &quot;Peaceful&quot; THEN 1 ELSE 0 END) &#13;&#10;/ COUNT([Study Environment])' />
+      </column>
+      <column caption='acdmic ' datatype='integer' name='[Calculation_74027976243851268]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Academic pressure from your home] &gt;= 3 THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='acdmic 2' datatype='integer' name='[Calculation_74027976244731909]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Academic pressure from your home] &gt;= 3 THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='coping' datatype='real' name='[Calculation_74027976246611975]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([What coping strategy you use as a student?]) &#13;&#10;/ TOTAL(COUNT([What coping strategy you use as a student?]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Peer pressure]' role='dimension' type='ordinal' />
+      <column datatype='integer' hidden='true' name='[Rate your academic stress index  1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Stress Index]' role='measure' type='quantitative' />
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Study Environment]' role='dimension' type='nominal' />
+      <column caption='Study Environment Peaceful' datatype='integer' name='[Study Environment_Peaceful]' role='measure' type='quantitative' />
+      <column caption='Study Environment disrupted' datatype='integer' name='[Study Environment_disrupted]' role='measure' type='quantitative' />
+      <column datatype='string' name='[What coping strategy you use as a student?]' role='dimension' type='nominal' />
+      <column-instance column='[Calculation_74027976218693632]' derivation='Avg' name='[avg:Calculation_74027976218693632:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Stress Index]' derivation='Avg' name='[avg:Stress Index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Study Environment_Peaceful]' derivation='Avg' name='[avg:Study Environment_Peaceful:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Study Environment_disrupted]' derivation='Avg' name='[avg:Study Environment_disrupted:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Stress Index]' derivation='Count' name='[cnt:Stress Index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Study Environment_Peaceful]' derivation='Median' name='[med:Study Environment_Peaceful:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Study Environment_disrupted]' derivation='Median' name='[med:Study Environment_disrupted:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Study Environment]' derivation='None' name='[none:Study Environment:nk]' pivot='key' type='nominal' />
+      <column-instance column='[What coping strategy you use as a student?]' derivation='None' name='[none:What coping strategy you use as a student?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Stress Index]' derivation='Sum' name='[sum:Stress Index:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.318008' measure-ordering='alphabetic' measure-percentage='0.681992' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Study Environment_Peaceful:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[med:Study Environment_Peaceful:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Calculation_74027976218693632:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[cnt:Stress Index:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[sum:Stress Index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Study Environment_disrupted:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[med:Study Environment_disrupted:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Study Environment:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;disrupted&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;Peaceful&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;Noisy&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:What coping strategy you use as a student?:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Analyze the situation and handle it with intellect&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Social support (friends, family)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Emotional breakdown (crying a lot)&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Egypt&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='AVG Stress Index'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#1d37c7' fontname='Segoe UI' fontsize='18'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleand_stress_level_study' name='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv'>
+            <column datatype='integer' name='[Stress Index]' role='measure' type='quantitative' />
+            <column-instance column='[Stress Index]' derivation='Avg' name='[avg:Stress Index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#1d37c7' fontsize='20'>&lt;</run>
+                <run bold='true' fontcolor='#1d37c7' fontsize='20'>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]</run>
+                <run bold='true' fontcolor='#1d37c7' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{45954E6A-DC80-4F56-B713-202D36EAE9D8}' />
+    </worksheet>
+    <worksheet name='Academic pressure vs Stress Index'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#1d37c7' fontsize='14'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleand_stress_level_study' name='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv'>
+            <column datatype='integer' name='[Academic pressure]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Stress Index]' role='measure' type='quantitative' />
+            <column-instance column='[Academic pressure]' derivation='Avg' name='[avg:Academic pressure:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Stress Index]' derivation='None' name='[none:Stress Index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Academic pressure:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Academic pressure:qk]' />
+              <text column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Academic pressure:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Academic pressure:qk]</rows>
+        <cols>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Stress Index:qk]</cols>
+      </table>
+      <simple-id uuid='{52CF84A2-588E-48F1-921A-DC34DEDD0619}' />
+    </worksheet>
+    <worksheet name='Coping Strategy'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#1d37c7' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleand_stress_level_study' name='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv'>
+            <column caption='coping' datatype='real' name='[Calculation_74027976246611975]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([What coping strategy you use as a student?]) &#13;&#10;/ TOTAL(COUNT([What coping strategy you use as a student?]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[What coping strategy you use as a student?]' role='dimension' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Count' name='[cnt:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[What coping strategy you use as a student?]' derivation='None' name='[none:What coping strategy you use as a student?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_74027976246611975]' derivation='User' name='[usr:Calculation_74027976246611975:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:What coping strategy you use as a student?:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:What coping strategy you use as a student?:nk]' />
+              <groupfilter function='member' level='[none:What coping strategy you use as a student?:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:What coping strategy you use as a student?:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' field='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[cnt:Number of Records:qk]' value='auto' />
+            <format attr='vertical-align' field='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[cnt:Number of Records:qk]' value='auto' />
+            <format attr='text-format' field='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[cnt:Number of Records:qk]' value='*0%' />
+            <format attr='text-format' field='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[usr:Calculation_74027976246611975:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:What coping strategy you use as a student?:nk]' />
+              <text column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[usr:Calculation_74027976246611975:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[cnt:Number of Records:qk]</rows>
+        <cols>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:What coping strategy you use as a student?:nk]</cols>
+      </table>
+      <simple-id uuid='{CF2F04B7-EE49-4877-92FE-1BD35FF289AA}' />
+    </worksheet>
+    <worksheet name='MAX Stress Index'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#1d37c7' fontname='Segoe UI' fontsize='18'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleand_stress_level_study' name='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv'>
+            <column datatype='integer' name='[Stress Index]' role='measure' type='quantitative' />
+            <column-instance column='[Stress Index]' derivation='Max' name='[max:Stress Index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[max:Stress Index:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#1d37c7' fontsize='20'>&lt;</run>
+                <run bold='true' fontcolor='#1d37c7' fontsize='20'>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[max:Stress Index:qk]</run>
+                <run bold='true' fontcolor='#1d37c7' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{307C2D18-9343-46C6-BBA8-37B9980C42F6}' />
+    </worksheet>
+    <worksheet name='Peaceful Enviroment %'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#1d37c7' fontname='Segoe UI' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleand_stress_level_study' name='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv'>
+            <column caption='Calculation1' datatype='real' name='[Calculation_74027976242458627]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF [Study Environment] = &quot;Peaceful&quot; THEN 1 ELSE 0 END) &#13;&#10;/ COUNT([Study Environment])' />
+            </column>
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Study Environment]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_74027976242458627]' derivation='User' name='[usr:Calculation_74027976242458627:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[usr:Calculation_74027976242458627:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[usr:Calculation_74027976242458627:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#1d37c7' fontsize='20'>&lt;</run>
+                <run bold='true' fontcolor='#1d37c7' fontsize='20'>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[usr:Calculation_74027976242458627:qk]</run>
+                <run bold='true' fontcolor='#1d37c7' fontsize='20'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3AFB99B4-1339-4BDC-9816-65A00DB60709}' />
+    </worksheet>
+    <worksheet name='Peer  pressure vs Stress Index'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#1d37c7' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleand_stress_level_study' name='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv'>
+            <column aggregation='Sum' datatype='integer' name='[Peer pressure]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Rate your academic stress index]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Stress Index]' role='measure' type='quantitative' />
+            <column-instance column='[Peer pressure]' derivation='Avg' name='[avg:Peer pressure:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rate your academic stress index]' derivation='Avg' name='[avg:Rate your academic stress index:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Stress Index]' derivation='Avg' name='[avg:Stress Index:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Peer pressure]' derivation='None' name='[none:Peer pressure:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Peer pressure:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Peer pressure:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]' />
+              <lod column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Peer pressure:ok]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='log' />
+          </pane>
+        </panes>
+        <rows>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Rate your academic stress index:qk]</rows>
+        <cols>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Peer pressure:qk]</cols>
+      </table>
+      <simple-id uuid='{F0D3F155-FC83-4069-AEE0-650C77F8EBF3}' />
+    </worksheet>
+    <worksheet name='Study Environmen vs Stress Index'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#1d37c7' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleand_stress_level_study' name='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lbpc5y19nb9ii1gbnjin0pl1xtv'>
+            <column datatype='integer' name='[Stress Index]' role='measure' type='quantitative' />
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Study Environment]' role='dimension' type='nominal' />
+            <column-instance column='[Stress Index]' derivation='Avg' name='[avg:Stress Index:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Study Environment]' derivation='Count' name='[cnt:Study Environment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Study Environment]' derivation='None' name='[none:Study Environment:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Study Environment:nk]'>
+            <groupfilter from='&quot;disrupted&quot;' function='range' level='[none:Study Environment:nk]' to='&quot;Peaceful&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Study Environment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]' />
+              <color column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]' />
+              <text column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Study Environment:nk]' />
+              <text column='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[cnt:Study Environment:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{268F8FE7-A5F1-44E4-8CF4-B70DC6386407}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#3e6186' fontname='Benton Sans Book' italic='true'>Academic Stress Analysis Dashboard.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e6e6e6' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='57875' id='9' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone fixed-size='39' h='5875' id='11' is-fixed='true' type='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='52000' id='7' type='layout-basic' w='98400' x='800' y='6875'>
+              <zone h='14335' id='3' param='vert' type='layout-flow' w='26300' x='800' y='6875'>
+                <zone h='14335' id='5' param='vert' type='layout-flow' w='26300' x='800' y='6875'>
+                  <zone h='14335' id='10' type='layout-basic' w='26300' x='800' y='6875'>
+                    <zone h='14335' id='12' param='horz' type='layout-flow' w='26300' x='800' y='6875'>
+                      <zone h='14335' id='15' name='AVG Stress Index' w='26300' x='800' y='6875'>
+                        <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='37665' id='28' type='layout-basic' w='58700' x='40500' y='21210'>
+                <zone h='37665' id='30' type='layout-basic' w='58700' x='40500' y='21210'>
+                  <zone h='37665' id='6' param='horz' type='layout-flow' w='33100' x='40500' y='21210'>
+                    <zone h='37665' id='22' name='Academic pressure vs Stress Index' w='33100' x='40500' y='21210'>
+                      <layout-cache minheight='199' minwidth='145' type-h='scalable' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone h='37665' id='31' param='horz' type='layout-flow' w='25600' x='73600' y='21210'>
+                    <zone h='37665' id='29' param='horz' type='layout-flow' w='25600' x='73600' y='21210'>
+                      <zone forceUpdate='true' h='37665' id='32' type='text' w='25600' x='73600' y='21210'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Overall Stress Levels</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Average Stress Index is 3.7, indicating relatively high academic stress.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Maximum Stress Index reached 5, showing some students experience extreme stress.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Peer Pressure vs Stress Index</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Stress levels rise consistently with higher peer pressure.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Peer influence is a significant contributor to academic stress.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Academic Pressure vs Stress Index</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Academic pressure from home shows a stronger correlation with stress than peer pressure.</run>
+                          <run>Æ&#10;</run>
+                          <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Students facing high academic expectations tend to report higher stress scores.</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='14335' id='13' param='horz' type='layout-flow' w='37600' x='61600' y='6875'>
+                <zone h='14335' id='17' name='Peaceful Enviroment %' w='37600' x='61600' y='6875'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='14335' id='14' param='horz' type='layout-flow' w='34500' x='27100' y='6875'>
+                <zone h='14335' id='16' name='MAX Stress Index' w='34500' x='27100' y='6875'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='37665' id='20' param='horz' type='layout-flow' w='39700' x='800' y='21210'>
+                <zone h='37665' id='21' name='Peer  pressure vs Stress Index' w='39700' x='800' y='21210'>
+                  <layout-cache minwidth='145' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='40125' id='18' param='vert' type='layout-flow' w='33100' x='40500' y='58875'>
+            <zone h='40125' id='25' name='Coping Strategy' w='33100' x='40500' y='58875'>
+              <layout-cache minheight='184' type-h='scalable' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='40125' id='19' param='horz' type='layout-flow' w='39700' x='800' y='58875'>
+            <zone h='40125' id='23' name='Study Environmen vs Stress Index' w='39700' x='800' y='58875'>
+              <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='40125' id='26' param='horz' type='layout-flow' w='25600' x='73600' y='58875'>
+            <zone forceUpdate='true' h='40125' id='33' type='text' w='25600' x='73600' y='58875'>
+              <formatted-text>
+                <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Study Environment vs Stress Index</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Students in </run>
+                <run bold='true' fontcolor='#1b1b1b' fontname='Benton Sans Book' fontsize='11'>Peaceful environments</run>
+                <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'> report lower stress levels.</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='11'>Noisy/Disrupted environments</run>
+                <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ </run>
+                <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>are linked to higher stress and greater variability.</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Environment quality is a critical factor in student well-being.</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Coping Strategies </run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='11'>63%</run>
+                <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'> of students rely on intellectual coping (analyzing and handling situations rationally).</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='11'>22</run>
+                <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='11'>%</run>
+                <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'> experience emotional breakdowns, highlighting vulnerability.</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='11'>15%</run>
+                <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'> depend on social support, suggesting limited reliance on external networks.</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#3e6186' fontname='Benton Sans Book' italic='true'>Academic Stress Analysis Dashboard.</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='35' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='34' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='39' h='5875' id='11' type='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='107' h='14335' id='15' is-fixed='true' name='AVG Stress Index' w='26300' x='800' y='6875'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='107' h='14335' id='16' is-fixed='true' name='MAX Stress Index' w='34500' x='27100' y='6875'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='107' h='14335' id='17' is-fixed='true' name='Peaceful Enviroment %' w='37600' x='61600' y='6875'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37665' id='21' is-fixed='true' name='Peer  pressure vs Stress Index' w='39700' x='800' y='21210'>
+                  <layout-cache minwidth='145' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37665' id='22' is-fixed='true' name='Academic pressure vs Stress Index' w='33100' x='40500' y='21210'>
+                  <layout-cache minheight='199' minwidth='145' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='37665' id='32' type='text' w='25600' x='73600' y='21210'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Overall Stress Levels</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Average Stress Index is 3.7, indicating relatively high academic stress.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Maximum Stress Index reached 5, showing some students experience extreme stress.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Peer Pressure vs Stress Index</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Stress levels rise consistently with higher peer pressure.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Peer influence is a significant contributor to academic stress.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Academic Pressure vs Stress Index</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Academic pressure from home shows a stronger correlation with stress than peer pressure.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Students facing high academic expectations tend to report higher stress scores.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40125' id='23' is-fixed='true' name='Study Environmen vs Stress Index' w='39700' x='800' y='58875'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40125' id='25' is-fixed='true' name='Coping Strategy' w='33100' x='40500' y='58875'>
+                  <layout-cache minheight='184' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='40125' id='33' type='text' w='25600' x='73600' y='58875'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Study Environment vs Stress Index</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Students in </run>
+                    <run bold='true' fontcolor='#1b1b1b' fontname='Benton Sans Book' fontsize='11'>Peaceful environments</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'> report lower stress levels.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='11'>Noisy/Disrupted environments</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ </run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>are linked to higher stress and greater variability.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'>Environment quality is a critical factor in student well-being.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#ff0000' fontname='Benton Sans Book' fontsize='10'>Coping Strategies </run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='11'>63%</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'> of students rely on intellectual coping (analyzing and handling situations rationally).</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='11'>22</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='11'>%</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'> experience emotional breakdowns, highlighting vulnerability.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='11'>15%</run>
+                    <run bold='true' fontcolor='#1d37c7' fontname='Benton Sans Book' fontsize='10'> depend on social support, suggesting limited reliance on external networks.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0A12C375-B6EE-464E-9E97-26CC78D147DC}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Peer  pressure vs Stress Index'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Academic pressure from your home:ok]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Academic pressure:ok]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Peer pressure:ok]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[sum:Academic pressure:ok]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[sum:Rate your academic stress index :ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1E1CA32D-3B6C-46D3-B402-31FF3FAF7072}' />
+    </window>
+    <window class='worksheet' name='Academic pressure vs Stress Index'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Academic pressure:ok]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Academic pressure:qk]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Stress Index:ok]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[sum:Academic pressure:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E435BF60-4D58-4B3E-ABAB-40D00215A59E}' />
+    </window>
+    <window class='worksheet' name='Study Environmen vs Stress Index'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[avg:Stress Index:qk]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Stress Index:ok]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Your Academic Stage:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{805B74F2-C0BF-4921-A7D7-7D6E80F543F4}' />
+    </window>
+    <window class='worksheet' name='Coping Strategy'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:What coping strategy you use as a student?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <fields>
+                  <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:What coping strategy you use as a student?:nk]</field>
+                </fields>
+                <multibucket>
+                  <bucket>%null%</bucket>
+                </multibucket>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:What coping strategy you use as a student?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AAA8D8E1-F43F-40D9-B7F2-7918B3D7B742}' />
+    </window>
+    <window class='worksheet' name='AVG Stress Index'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Stress Index:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{68A54F9B-0BA5-45E8-BB09-61F007541844}' />
+    </window>
+    <window class='worksheet' name='MAX Stress Index'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DCDC8425-08A3-441B-9351-486C1502487C}' />
+    </window>
+    <window class='worksheet' name='Peaceful Enviroment %'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[cnt:Study Environment:qk]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[none:Study Environment:nk]</field>
+            <field>[federated.1lbpc5y19nb9ii1gbnjin0pl1xtv].[usr:Calculation_74027976240885761:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2DDC8126-15D6-4741-A9EF-2D9A8E798776}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='AVG Stress Index'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Academic pressure vs Stress Index'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Coping Strategy'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MAX Stress Index'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Peaceful Enviroment %'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Peer  pressure vs Stress Index'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Study Environmen vs Stress Index'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='33' />
+      <simple-id uuid='{D0DE15D8-A6A4-49BA-AEEC-2E6C350A6C59}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='41' name='AVG Stress Index' width='104'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Academic pressure vs Stress Index' width='192'>
+      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
+      rGEYef+OXdM0cRTAkxgKoR83CuKXoCj+kw9MxOk58zGTiXIO7N18c84UC89w7sx5DHcJrc0N
+      OEsqGRvowijy07o6+WbBgtkJLoAdVCiMfmTlVoh0SQBySyH0I9MByO+5iRAPSAIgbE0CIGxN
+      AiBsTQIgbE0CIGxNAiBsTQIgbE0CIGxNAiBsTQIgbE0CIGxNAiBsTQIgbE0CIGwt7QBYpsFo
+      fzfTN18frBi6cI6egdGcL4oX4oYHCICJz5n4NACh68zofrzhSebyrSpe2FbapVpOt5fy0mIC
+      n/xexSN4yxqpiEwSjoPvk2dDyIuyc0ch9CPTL8pOOwCx8AxnO84z5glTvbEBZ5Gf6bNHGXf6
+      2LcKnJrz5sDP95JIIO9LCW/I935ITXAWFEItLRRGP6QmWIgMkgAIW5MACFuTAAhbkwAIW5MA
+      CFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbSzsA8fAsRz88yLGT
+      XZgKQPHRe29y4uNzxDPXPiEWVdoBCC5Ms6p1Dw0VGqG4BYSYn1eU1lTjJlm5Y5pm5loqxCJI
+      u1ZR1x1EoxGMWAKnQ4OEk8e//Axj508xHm3E703WBMfjcSmKzxGF0I+cKYovq1rGta5zuCqb
+      IBxgwVHC8MVzGO46Vnk+/XsOhyPva4Ih/4vJb8j3fkhRfBYUQjE5FEY/pCheiAySAAhbkwAI
+      W5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW0s7AGYsyMdHP+TkuYtYACTo
+      OHaYj9o75S2RIm+kHYC52Qka1+6kpihGKKZQsyO4m3axrlJjIprJJgqxeNIOgKZpmKaJZSo0
+      DdAdWKZBwrTQM1OrIMSiSzsAZRV+pkY6CWllaNEAQXcD2kQPV2Jeajyp/70QuUAKYu5BIRSS
+      QGH0I9MFMYs2Mguh/lTknkzVAt+waMugTqcTh8OxWN9+SWX6Pz1bCqUfmbTo+wCZOlVlUyH0
+      AQqjH5qmZTTIi3oNIESuW4JDgmLy2ihTc6G83CCzEjEmpqaz3YwHFlmYYXBoBMPMx59CkmVE
+      GBocIDAXytj3XPQARALXGJ2J0N/Xm5cPyJqemmLkyrVsN+OBTU/P4NXmGRidzXZT0mbEYriL
+      iunt683Y91z0AATDBk1NK6jxFZPIv/FPTf1yyorzf2Ojzl/DfMjBimVl2W5K2twl5QSuDuIu
+      ylwfFj0ApSVuhi4NMhkM48zDRYiFmUkmJiaYnFnIdlMegKLzTCfekmLMPF6eDs5MUlbXhBGc
+      JVNPnV30HSpv1TLWmA70ovK8XYZralqR7SY8sJXNzYRj+Tv4AYp8pbhCMVo3biRTC+yyCiRs
+      Lf8XhoV4ABIAYWsSAGFrEgCRNUpZzM/OsBCKcr9XouFI+I59JaVMopH7e0GXBEBkzeTAWd7+
+      4zG6evoY6j3F4MS97/D+9uX/Jv4nu9pW4jpvvdl+X23I7xv1RV4rrqzCDF1AOVfT3f4+I84A
+      68vGmKGRCiY41TnI3i8+R9fBg2x+8kvM9X5EyLeKr33paQAunzrEiaEpjISH1nqL0YUgRryK
+      //iXf+bqgpvvfGM3vRev0NCyk4dbP3spW84AInv0Ip549ov0dxyhcXUbW7dtQnd42bf/UQLj
+      U+x76gusqKtm09ZWBgcusnrDZsJTV5iNJqc5lqnRtmMvVS64Hgizb99OnNF5ZinnuSf3UlVT
+      w9WBYSprqz73PjTZBxBZEw/NcPL0WWpXbeShahftZwZY3eynsmY55sIY7ecusratjdHebsqb
+      1uEJjXEt5GD3js1cHR2iyucj4fERnpnB5zXpGrxKU+MaVPAKwzOK9av9eEvKmJ8L07jcz2dt
+      w0oAhK3JFEjY2v8DPeflhQEfynAAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Coping Strategy' width='192'>
+      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
+      E9EjxKJRTDTCIQWX04Gmgc1mw2aznXn+hfoDKLaP2jf44spwOHC73SNdhuWl3GnQaKCPIVMB
+      FGwaRPoHCLpy8IW6OXq8nWiojyPHW1G0TDJSrnqRblJuBCic9Sn8zz7FTzf2YDjzqbn8aqoy
+      vcRrxrPpuWf50YYI5TMXsXRssTSkFsOWcgGwe4pYvOpLLH7/N/yVLLvtKywbiaLEx5ZMIoSl
+      SQCEpUkAhKVJAISlSQCEpUkAhKVJAISlSQCEpUkAhKVJAISlSQCEpUkAhKVJAISlSQCEpUkA
+      hKVJAISlSQCEpUkAhKVJAISlSQCEpUkAhKVJAISlSQCEpUkAhKVJAISlSQCEpUkAhKVJAISl
+      SQCEpaXc7tADJw/T0q2f+dpm91JaWY5XCXKqtZXOQQNfXjHF+VnYJb5imFIuAMGeVpqbB9/5
+      wujl7WYPN3ylhHDTm7y2rxXTphA5epyZ8z5JVYFHukSKYUm5ABRNXcyKqe/8PfT2JpSSCRTH
+      e9jWGqSito4ppS6O7NhBR1s7o/MrpUukGJaUC8BpZrSD+n0mUy/3Ywu3onizyfNno2oqpcW5
+      dA1EiMTAoZlndVs83SQvHo+f9XrxeGp1ZIyfp0Zx6aVoAAz6mprRS8dQ5HRgRuKoqoqqqigo
+      KGoMXYd4nHM6Qp4++A3DOOsVIynWJTIWi6Lr+gf/oLioUjIA8XAfzV1RRpX5cdgUVM2OHtKJ
+      RiKY2AkNmWQ47GgaqKpKRkbGmedeqEskamp1iXTYHbhcrpEuw/JS8DyKSaCnFx0XRYU+VAXw
+      +PHr3RxsaSMS7OHgsROodp90iRTDlnKHkBmPMdDXhlY0jpzT5zltmUybV43j8Ev8z8/W0Jk5
+      nmnjpUukGL6UmwIpqp2yyZdRdvaj2DylLLr5iywaobrEx1PKjQBCXEoSAGFpEgBhaRIAYWkS
+      AGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpEgBhaRIAYWkSAGFpSflE
+      mGnEMFBRiREcCqFkeHA7NBT5yKJIcUkYASIc27mJve2DtB/Yxp9+92t+s+FNYqTWPjxCnE8S
+      AtBNw/oG2kJ97Nq5jV63i7ZnXqVFjn+RBpIQAINYzCTQc5LWjgDT5n2CUWackIwAIg0kIQCj
+      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
+      wy6lxgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='41' name='MAX Stress Index' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAApCAYAAACFki9MAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAB/klEQVRoge2ZT0gUURzHP7MumUtF/8BSEQk2rKMYdtrAvAQdJAxEhEQtMKiLdO4QdAsP
+      EQWC0F3IiwdPgV1El6B/G7i2i8uKkQhlOrNsMzsdHOii7KXnd8H3Pf1gHrzPfOY3771hnDAM
+      Qw5xYmoAdawANYA6VoAaQB0rQA2gjhWgBlDHClADqGMFqAHUsQLUAOpYAWoAdeJqgI8v33Pz
+      dbnKqDNMLSTpMTC/uAMCcrlqN2824g5wya5E5Y2LFB6fPnACbQfseGTXd8tLrUclCFoBBY9M
+      VLa3NUgQpAK2Vz0KAByh5ZwjYZAKyOXdqEqQbNUwOLofIwEzj5Z4+G6vazFSvU0M958n1VZn
+      dKUWdkBAff1+t1ZhfqbIUH+a1Ph3sr45CmEHVInv8ureJ55mQqCOO887eXLl/68TtXsUjicY
+      HTvLKQAC3qa3jUxTuwKA+OXjdEV14ccfI3PUtABKFcw893/RCdjy+VlliJ/5zWJUdyQTRjB0
+      Aj7kuTr4jdliZe/r5R1eTG6y+6l0jFvXzRyVpa+Au7LBWF+aaw/yTH8pselGG5IfMHL7M8+W
+      ARw67l9goNEMg24bLHvMTiwz/sbD3XdQjK6RdibvnuCkIQz5OcB3Xean15ma+8XXtTIbJQCH
+      VG8zw4NNdLeYbVK5AHVqexs8gFgBagB1Dr2Av8UIkNQkCPKgAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='41' name='Peaceful Enviroment %' width='124'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Peer  pressure vs Stress Index' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Study Environmen vs Stress Index' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAGuklEQVR4nO3aW28cdx3G8Wf25PVp7fjsOI5T5eC4TSAtJU0K5aK9CVBFKgpIfQOVEEJc
+      ccUr4IorhAQvAFoJlVBUVJAAoYoEpahQNamT2E3d+BB8Srf22l57d/9cNCJNstBJyaxrnu/n
+      xtJ/Z2d/I+3XOzuzUQghCDCV2u4BgO1EALBGALBGALCWqbcYqjWVl4uNngVouLoBbMwv6ZVD
+      pxs9C9BwnALBGgHAGgHA2n0FEOWyyQyR0H6BT3JfAXSdOqnW/t0qjBTu60Wi1lZ1jA39x8f7
+      T528r/0BD0rdq0B3yx14WPuefVTZrpTevzSjtMrqOf2suvbkNPvqObU//ojy2Q1trATN/eaC
+      ep85qvW5TQ08fVSpUNTy5Jb2fe2IZl86q1J6SH1HB7T8hz9pq3tUA48NK715U3NJHylQR6xP
+      gJ7HR/TuT36uG397X6lCQU2FJqVyOYV0UKq5TfkO6frL59Q02CcprfxQr7LteS2c/a2mL0fK
+      LL6h6V+9ptnXl7XnueNKZ/MqHBlVYSBo4se/UHF2LeHDBOqLFcD6SlYHv/NN9X3+9mlMrVZR
+      trNHLf0FlWfnVNmoqrzZotHvnVHXoW4p3aKh509r5ESHilNBHV96SoNP9qo0VVStsqny4pJC
+      54gOfvuMCgPNiR0g8N9E9X4OvT63cM+NsCidUghBqt3aPIoUpSKFak2KJIWPrdWC2o59Trox
+      pdUbRSkEKZX66K90a5uapNvbi19lYxvE+g4gffTziDsXgkL11ps23Lu2+uY/7ty+dvv5/36e
+      PrYPYBtwHwDWYn0CtD3xpIZOPqTq6rymX7usoeeeUiZX1fWfvaS1Yu2TdwB8RsX6BCi9eUFX
+      f/prlVNtatu/R6Vzf9b1Cx+obTCX9HxAomIFELZaNfLCaaU/XNDa1KxaT3xFw8d7tH6zkvR8
+      QKJiBdD+6B4t//6cKq2D6v7CAa1feVuL4yUVHtqV9HxAomJ9BygvrKhrbLdKf3ldN68ua9cX
+      jygbXdTs+YWk5wMSFfs+APD/iMugsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsJapu9jarEPffb7RswANVz+AqKqx/JVG
+      zwI0HKdAsEYAsEYAsEYAsBYrgMmJcf3w4nXVKmt6cXz2jsdKa6uaLK4lMhyQtLpXge4WRS06
+      nN/UpZWKgqTl4pJ++c60BvqH9OXuJtVC0BsTEzq/VNZXx0a0tZXS3tyWZpTXwfamhA8B+PRi
+      nwI9PDyoyZkbqkg6P7Oobzx2RB2lRU2WNjS/vqnFUlm97c3KpjKaWlrSW0tFtWVj9QVsm9gB
+      5LLN2t9S03hxQ335jF69NKHL5bQ6U5IU1NPWouXist5bk/Y1b+ntlZR6m9LJTQ48ALH+Re8d
+      2S1FkaKRA/r+UFB7NqW9pQ3lm/JqTUvDilTZatFQ/4B2NUU6+9aqnth/UJko6fGB/00UQgh3
+      L4aVojZ/9INPtcMQgmohKBVFiiIKwGfbAz9Jj6JIad742CFiBTAzP6eXJ/6pzs4ufX1ft/54
+      5ZpmNlM6c+ywBnPcSsDOFevd29XZoxeOP6Lu6ro+VFZPjx3Wt4abNbFaS3o+IFGxAmjKVPXi
+      Xy+qmGlVX3NWSzcX9M5mm07s4jIndrZYAcwUN3Tq2KgGtKK/T8/rcjmjo73tqtbu+f4M7Cix
+      Asirot9dfU+pjkGNFrL6YGlBr4xf07W1raTnAxL1wC+DAjsJl3BgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgLVN3NZdT+uQzDR4FaLx/AUrL
+      mXLmrL2FAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
