@@ -37,25 +37,25 @@ This project analyzes academic stress among students, focusing on:
 
 The dataset used in this project is available in the repository.
 
-📥 [Download Dataset](data/bmwsh.csv)
+📥 [Download Dataset](data/file.csv)
 
 ## 📊 Tableau Dashboard
 The interactive dashboard provides high-level insights into sales KPIs, state-by-state success rates, and revenue distribution. 
 
 All Tableau workbooks are stored in the `Tableau_work_book` folder:
 
-- [Dashboard Workbook](tableau/bmwt.twbx)
+- [Dashboard Workbook](tableau/Book.twb)
 
 - ## 📈 Dashboards
 
 Click on images to view full size:
-![BMW Dashboard](images/bmw.png) 
+![BMW Dashboard](image/image.png) 
 
 
 
 ## 📄 Notebook & Case Study
-- **Notebook**: [Open Notebook](Notebook/bmwco.ipynb)  
-- **Case Study PDF**: [View Case Study](case_study.pdf/bmwpdf.pdf)
+- **Notebook**: [Open Notebook](Notebook/colab.ipynb)  
+- **Case Study PDF**: [View Case Study](case_study_pdf/pdf.pdf)
 
 
 ## 💡 Key Insights
